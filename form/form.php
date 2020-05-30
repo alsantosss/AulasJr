@@ -1,22 +1,11 @@
 <!-- Processamento do form na mesma página -->
-<?php
-echo "<pre>";
-var_dump($_POST);
-echo "</pre>";
-/*
-	RETORNO:
-		array(2) {
-		  ["nome"]=>
-		  string(5) "andre"
-		  ["submit"]=>
-		  string(6) "Enviar"
-		}
-*/
- ?>
+
+
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Processamento do form na mesma página</title>
+		<title> Processamento do Form na Mesma Página </title>
+
 		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 	</head>
 <body>
@@ -46,5 +35,21 @@ echo "</pre>";
 		}
 		
 	?>
+
+
+	<?php
+echo "<pre>";
+var_dump($_POST);
+echo "</pre>";
+/*
+	RETORNO:
+		array(2) {
+		  ["nome"]=>
+		  string(5) "andre"
+		  ["submit"]=>
+		  string(6) "Enviar"
+		}
+*/
+ ?>
 	</body>
 </html>
