@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 	</head>
 <body>
-	<h1> Processamento do form na mesma página </h1>
+	<h1> Processamento do Form na Mesma Página </h1>
 
 		<form id="form1" name="form1" method="post">
 
