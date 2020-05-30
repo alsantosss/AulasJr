@@ -30,3 +30,7 @@ echo "Aulas Joao Ribeiro" >> README.md
 								Criação do Projeto
 //--------------------------------------------------------------------------------------------//
 
+- Adiciona as Alterações Localmente:
+	git add -A 
+
+- 
