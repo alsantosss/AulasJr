@@ -11,7 +11,6 @@ echo "</pre>";
 		  ["submit"]=>
 		  string(6) "Enviar"
 		}
-
 */
  ?>
 <!DOCTYPE html>
