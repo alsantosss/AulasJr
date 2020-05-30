@@ -17,6 +17,7 @@ echo "</pre>";
 <html>
 	<head>
 		<title>Processamento do form na mesma página</title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 	</head>
 <body>
 	<h1> Processamento do form na mesma página </h1>
