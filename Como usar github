@@ -1,0 +1,32 @@
+Como usar github
+
+//--------------------------------------------------------------------------------------------//
+								Criação do Projeto
+//--------------------------------------------------------------------------------------------//
+
+- Criar pasta na máquina local
+	sudo mkdir aulasjr/ && sudo chmod -R 777 aulasjr/ && sudo chown andre.www-data aulasjr/ 
+
+- Acessar a pasta 
+    cd aulasjr/
+
+-Criar um arquivo dentro dessa pasta
+echo "Aulas Joao Ribeiro" >> README.md
+
+- Iniciar o git
+	git init
+	git config --global user.name "Andre Santos"
+	git config --global user.email "alsantosss@gmail.com"
+
+- Criar o Repositório no GitHub
+	Copiar a URL criada no repositório.
+
+- Adicionar e Comitar o primeiro Arquivo
+	git add README.md
+	git commit -m "Aulas Joao Ribeiro"
+	git push origin master
+
+//--------------------------------------------------------------------------------------------//
+								Criação do Projeto
+//--------------------------------------------------------------------------------------------//
+
