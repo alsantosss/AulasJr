@@ -7,7 +7,7 @@ Alguns esclarescimentos sobre php (Celke) 	-> https://celke.com.br/blog
 Como usar github
 
 //--------------------------------------------------------------------------------------------//
-								Criação do Projeto
+					Criação do Projeto
 //--------------------------------------------------------------------------------------------//
 
 - Criar pasta na máquina local
@@ -33,7 +33,7 @@ echo "Aulas Joao Ribeiro" >> README.md
 	git push origin master
 
 //--------------------------------------------------------------------------------------------//
-								Criação do Projeto
+					Alterações do Projeto
 //--------------------------------------------------------------------------------------------//
 
 - Informa as alterações efetuadas nos arquivos que se está trabalhando...
@@ -45,6 +45,7 @@ echo "Aulas Joao Ribeiro" >> README.md
 - Adiciona alteração de um arquivo específico
 	git add "Como usar github" 
 	git commit -m "Como adicionar novas alterações (De Local => Master)"
+	git commit "<Seu arquivo>" (Dessa forma abre seu editor de texto para um comentário mais extenso);
 
 - git push origin master
 	Username for 'https://github.com': <seu email> email@mail.com
