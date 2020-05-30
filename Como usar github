@@ -30,7 +30,17 @@ echo "Aulas Joao Ribeiro" >> README.md
 								Criação do Projeto
 //--------------------------------------------------------------------------------------------//
 
-- Adiciona as Alterações Localmente:
+- Informa as alterações efetuadas nos arquivos que se está trabalhando...
+	git status
+
+- Adiciona as Alterações Localmente (todos):
 	git add -A 
 
-- 
+- Adiciona alteração de um arquivo específico
+	git add "Como usar github" 
+	git commit -m "Como adicionar novas alterações (De Local => Master)"
+
+- git push origin master
+	Username for 'https://github.com': <seu email> email@mail.com
+	Password for 'https://emal@mail.com@github.com': <sua senha>
+
