@@ -55,7 +55,7 @@ try {
 	$pdo = new PDO($dsn, $user, $pass);// Conexão Aberta
 	
 	$nome = "Testando3";
-	$email = "teste5@hotmail.com";
+	$email = "teste3@hotmail.com";
 	$senha = md5("123");
 
 	$sql = "SELECT email FROM usuarios WHERE email = '$email'";
@@ -68,15 +68,15 @@ try {
 		echo "Vazio = Pode Inserir o registro";
 		echo "Resultado = " . print_r($resultado->fetchAll());
 
-	// $sql = "INSERT INTO usuarios SET nome = '$nome', email = '$email', senha = '$senha'";
+	$sql = "INSERT INTO usuarios SET nome = '$nome', email = '$email', senha = '$senha'";
 
-	// $resultado=$pdo->query($sql);
+	$resultado=$pdo->query($sql);
 
-	// if ($pdo->lastInsertId()>0) {
-	// 	echo "Usuário inserido com sucesso - id => " . $pdo->lastInsertId();
-	// }else {
-	// 	echo "Erro ao Inserir usuário";
-	// }
+	if ($pdo->lastInsertId()>0) {
+		echo "Usuário inserido com sucesso - id => " . $pdo->lastInsertId();
+	}else {
+		echo "Erro ao Inserir usuário";
+	}
 	}
 	
 } catch (PDOException $e) {
