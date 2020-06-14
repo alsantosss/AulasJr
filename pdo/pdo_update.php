@@ -2,10 +2,6 @@
 	Biblioteca PDO (Update)
 </h1>
 
-<p>
-
-</p>
-
 <code>
 $dsn  = "mysql:dbname=blog;host=localhost";<br>
 $user = "root";<br>
