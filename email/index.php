@@ -31,6 +31,7 @@ echo "</pre>";
 // efetuar o envio propriamente dito com a função mail()
 mail($para,$assunto,$corpo,$cabecalho);
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
