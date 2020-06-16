@@ -6,6 +6,8 @@ class Post{
     private $comentarios;
     private $qtdComentarios;
 
+    //Construtores na maioria são públicos.. são os primeiros a serem executados
+    //instantaneamente, podendo inicializar já com dados instanciados.
     public function __construct($t,$c)
     {
         $this->setTitulo($t);
@@ -17,6 +19,7 @@ class Post{
         return $this->titulo;
     }
 
+    //getter and setter servem para poder validar os dados que chegam
     public function setTitulo($t){
         if (strlen($t) >= 5) {
             $this->titulo = $t;
