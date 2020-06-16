@@ -2,6 +2,8 @@
 // Uma classe abstrata obriga toda classe que a extende a possuir funções
 // que seriam obrigatórias... no exemplo abaixo as classes dariam erro fatal 
 // se não implementassem a função andar()...
+// Porém todas as funções extendidas e variáveis continuam a ser extendidas.. 
+// portanto, ela não é apenas um modelo... é funcional.
 abstract class Animal {
     public $nome;
     private $idade;
