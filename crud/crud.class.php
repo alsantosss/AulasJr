@@ -23,6 +23,13 @@ private $array;
         // podendo então chamar o método rowCount() tb um método da classe PDO.
         $query = $this->pdo->query($sql);
         $this->numRows = $query->rowCount();
+        // O Obj $query executa o método da classe PDO fetchAll(), trazendo os resultados
+        // da consulta que são colocados na variável privada $array;
+        $this->array = $query->fetchAll();
+    }
+
+    public function getResult(){
+        return $this->array;
     }
 
     public function getNumRows(){
