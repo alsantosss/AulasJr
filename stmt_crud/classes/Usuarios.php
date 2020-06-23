@@ -66,11 +66,11 @@ class Usuarios{
         if(!empty($this->id))
         {
             $sql = "UPDATE usuarios SET email = ?, senha = ?, nome = ? WHERE id = ?";
-            $sql->pdo->prepare($sql);
+            $sql=$this->pdo->prepare($sql);
             $sql->execute(array($this->email,$this->senha,$this->nome,$this->id));
         }else{
             $sql = "INSERT INTO usuarios SET email = ?, senha = ?, nome = ?";
-            $sql->pdo->prepare($sql);
+            $sql= $this->pdo->prepare($sql);
             $sql->execute(array($this->email,$this->senha,$this->nome));
         }
     }
