@@ -1,17 +1,10 @@
 
 <?php
-$var = array(
-    'nome'=>'joao',
-    'idade'=>'',
-    'sexo'=>'m'
-);
+    $classe = 'classTeste';
+    $pastas=['database/',''];
+    foreach ($pastas as $pasta) {
+       echo $arquivo = "{$pasta}$classe.php <br>";
 
-$valida = (in_array(null, $var));
-
-if($valida == 1){
-    echo "Array tem itens nulos .. valida = ".$valida;
-}else{
-    echo "Array válido.. valida = ".$valida;
-}
+    }
 
 ?>
