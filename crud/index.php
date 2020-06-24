@@ -28,9 +28,9 @@ $crud = new Crud();
 // $name= $crud->randomName();
 // $dados=array(
 //     'matricula'=>rand(123231,567878),
-//     'titulo'=>'Titulo qualquer',
+//     'titulo'=>'Titulo qualquer outro'.rand(123231,567878),
 //     'data_criado'=>date("Y-m-d"),
-//     'corpo'=>'Texto de teste...',
+//     'corpo'=>'Texto de teste...'.rand(123231,567878),
 //     'autor'=>$name,
 //     'qtde'=>rand(1,10)
 // );
