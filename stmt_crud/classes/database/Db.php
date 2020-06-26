@@ -13,6 +13,11 @@ class Db{
             echo "Erro de Conexão : ". $e->getMessage();
         }
     }
+
+    public function db()
+    {
+        return $this->db;
+    }
         
 }
 
